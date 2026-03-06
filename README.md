@@ -7,16 +7,16 @@ It supports user authentication, appointment scheduling, admin approvals, and co
  ASP.NET Core Web API, EF Core, SQL Server, JWT Authentication
 
 # Security
-    * JWT Authentication
-    * Role-based authorization
-    * Secure password hashing
-    * Protected admin endpoints
+* JWT Authentication
+* Role-based authorization
+* Secure password hashing
+* Protected admin endpoints
 
 # API Endpoints
 Authentication
 ---------------
-POST /api/auth/register
-POST /api/auth/login
+* POST /api/auth/register
+* POST /api/auth/login
 
 Admin (Admin only)
 ------
