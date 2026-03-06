@@ -20,15 +20,15 @@ POST /api/auth/login
 
 Admin (Admin only)
 ------
-GET /api/admin/GetAppointment\
-POST /api/admin/CreateSlot\
-GET /api/admin/GetAppointment\
-POST /api/admin/UpdatePending\
-POST /api/admin/MarkCompleted\
+* GET /api/admin/GetAppointment\
+* POST /api/admin/CreateSlot\
+* GET /api/admin/GetAppointment\
+* POST /api/admin/UpdatePending\
+* POST /api/admin/MarkCompleted\
 
 Appointments
 -------------
-POST /api/appointments/book
-GET /api/appointments/GetAppointments
-POSt /api/appointments/GetTimeSlot
-POSt /api/appointments/CancelleAppointment (User only)
+* POST /api/appointments/book
+* GET /api/appointments/GetAppointments
+* POSt /api/appointments/GetTimeSlot
+* POSt /api/appointments/CancelleAppointment (User only)
